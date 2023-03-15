@@ -1,0 +1,19 @@
+
+#uploadchapter-cards{
+    background-color: #dfe6e9 ;
+}
+
+.card{
+    border: 1px solid gray;
+    transition: transform 0.7s;
+}
+.card:hover{
+    box-shadow:0px 0px 20px black ;
+
+    transform: scale(105%); 
+}
+
+.cardimage{
+    object-fit:cover;
+    height: 200px;
+}
